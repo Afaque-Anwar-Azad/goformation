@@ -61,7 +61,7 @@ type ComputeEnvironment_ComputeResources struct {
 	// MinvCpus AWS CloudFormation Property
 	// Required: false
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-batch-computeenvironment-computeresources.html#cfn-batch-computeenvironment-computeresources-minvcpus
-	MinvCpus int `json:"MinvCpus,omitempty"`
+	MinvCpus *int `json:"MinvCpus,omitempty"`
 
 	// PlacementGroup AWS CloudFormation Property
 	// Required: false
