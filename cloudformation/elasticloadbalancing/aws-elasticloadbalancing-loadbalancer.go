@@ -41,7 +41,7 @@ type LoadBalancer struct {
 	// CrossZone AWS CloudFormation Property
 	// Required: false
 	// See: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-elb.html#cfn-ec2-elb-crosszone
-	CrossZone bool `json:"CrossZone,omitempty"`
+	CrossZone *bool `json:"CrossZone,omitempty"`
 
 	// HealthCheck AWS CloudFormation Property
 	// Required: false
